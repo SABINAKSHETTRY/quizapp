@@ -1,0 +1,42 @@
+export const Questions = [
+    {
+        prompt: "How many elements are in the periodic table?",
+        optionA: "123",
+        optionB: "119",
+        optionC: "118",
+        optionD: "116",
+        answer: "C",
+    },
+    {
+        prompt: "What is the 4th letter of the Greek alphabet?",
+        optionA: "alpha",
+        optionB: "beta",
+        optionC: "gamma",
+        optionD: "delta",
+        answer: "D",
+    },
+    {
+        prompt: "How many bones do we have in an ear?",
+        optionA: "3",
+        optionB: "9",
+        optionC: "8",
+        optionD: "6",
+        answer: "A",
+    },
+    {
+        prompt: "Entomology is the science that studies",
+        optionA: "Behavior of human beings",
+        optionB: "Insects",
+        optionC: "The origin and history of technical and scientific terms",
+        optionD: "The formation of rocks",
+        answer: "B",
+    },
+    {
+        prompt: "The ozone layer restricts",
+        optionA: "Visible light",
+        optionB: "	Infrared radiation",
+        optionC: "X-rays and gamma rays",
+        optionD: "	Ultraviolet radiation",
+        answer: "D",
+    },
+];
