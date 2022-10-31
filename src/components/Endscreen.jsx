@@ -16,7 +16,7 @@ export default function Endscreen() {
 
   return (
     <div className='endscreen'><h1>Quiz Completed</h1>
-    <h3>{Score} / {Questions.length}</h3>
+    <h3>{Score} / {Questions.length} answers are correct !!</h3>
     <button onClick={restart}>Restart Quiz</button>
     </div>
   )
