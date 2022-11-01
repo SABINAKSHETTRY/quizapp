@@ -14,10 +14,10 @@ export default function Quiz() {
         if (Questions[currQuestion].answer == optionChosen) {
             setScore(Score + 1);
         }
-        document.getElementById("A").disable = false;
-        document.getElementById("B").disable = false;
-        document.getElementById("C").disable = false;
-        document.getElementById("D").disable = false;
+        document.getElementById("A").disabled = false;
+        document.getElementById("B").disabled = false;
+        document.getElementById("C").disabled = false;
+        document.getElementById("D").disabled = false;
         let element = document.getElementById(optionChosen);
         element.classList.remove("correct");
         element.classList.remove("incorrect");
@@ -33,10 +33,10 @@ export default function Quiz() {
         setGameState("Endscreen");
     };
     const disableButton = () => {
-        document.getElementById("A").disable = true;
-        document.getElementById("B").disable = true;
-        document.getElementById("C").disable = true;
-        document.getElementById("D").disable = true;
+        document.getElementById("A").disabled = true;
+        document.getElementById("B").disabled = true;
+        document.getElementById("C").disabled = true;
+        document.getElementById("D").disabled = true;
 
         if (Questions[currQuestion].answer === optionChosen) {
             let element = document.getElementById(optionChosen);
@@ -53,6 +53,7 @@ export default function Quiz() {
             <div className="options">
                 <button
                     id="A"
+                    // disable={true}
                     onClick={() => {
                         optionChosen = "A";
                         disableButton();
